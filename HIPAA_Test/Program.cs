@@ -11,6 +11,7 @@ namespace HIPAA_Validator
     {
         static void Main(string[] args)
         {
+           
             var validator = new EDI837Validator();
 
             string sampleEDI = @"ISA*00*          *00*          *ZZ*SUBMITTER_ID   *ZZ*RECEIVER_ID    *210101*1000*^*00501*000000001*0*P*:~
